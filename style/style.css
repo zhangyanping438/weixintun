@@ -1,0 +1,44 @@
+body{font-family:arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;position: relative;}
+.container{width:1000px !important;position: relative;}
+p{color:#787c76}
+h2{color:#2f3730;}
+.bf{font-size:140px;color:#706e6e}
+.header{background:#ececec;width:100%;height:80px;box-shadow:0px 1px 1px rgba(0,0,0,0.2)}
+.header .navbar{margin-top:20px;margin-bottom:0;}
+.header .navbar a{color:#666;padding:6px 15px;}
+.header .navbar li.active a{background:#fca018;color:#fff;}
+.header h3{font-size:14px;margin-left:20px;}
+.navbar-header{width:320px;}
+.topheader{width:100%;height:50px;}
+.topheader .logo{margin-top:0;}
+.topheader .navbar{margin-top:6px;}
+.topheader .navbar li a{padding:6px 15px;}
+.logo{color:#fff;width:150px;background:url("../images/logo.png") no-repeat center;}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx){
+.logo{background:url("../images/logo@2x.png") no-repeat center;background-size:150px 40px}
+}
+.banner{background:#2895c3 url(../images/banner.png) no-repeat left top;height:340px;position:relative;overflow: hidden}
+.banner h2{position:absolute;top:100px;color:#fff;width:370px;font-size:32px;line-height:46px;}
+.apps{position:absolute;right:0px;width:260px;top:40px;}
+.apps img{width:260px;}
+.box1{background:#f4f4f4;padding:40px 0;overflow: hidden}
+.box2 h1{text-align: center;margin-top:60px;}
+.box2 h1 i{font-size:130px;color: #87857f;}
+.box1 .row{padding-top:30px;padding-bottom:20px;border-bottom:1px solid #e0e0e0;}
+.col3list i{font-size:52px;color: #87857f;}
+.col3list p{text-align: center;}
+h2{line-height:60px;}
+.box2{background:#f1f1f1;padding:30px 0;overflow: hidden;box-shadow: inset 0px 1px 2px rgba(0,0,0,0.1)}
+.box2 .row{border-bottom:1px solid #d7d7d7;padding-bottom:40px;}
+.box3{padding:30px 0;}
+.box4{padding:0 0 40px 0;}
+.serv i{font-size:44px;display:block;float:left;margin-right:10px;color: #87857f;}
+.serv{}
+#chaoshi,#nonebo{border-bottom:none;}
+.allview p{font-size:12px;}
+.serv p{margin-bottom:60px;margin-right:40px;}
+.ewm{text-align:center;}
+.ewm p{font-size:12px;margin-top:10px;}
+.ewm img{width:100px;height:100px;}
+.footer{padding:40px 0;background: #efefef;color:#eaeaea}
+.footer .copy{font-size:12px;color:#838181}
